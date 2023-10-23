@@ -1,9 +1,9 @@
 <script>
-	import HTMLTeht1 from '$lib/exercises/1_html/HTMLTeht1.svelte';
-	import HTMLTeht2 from '$lib/exercises/1_html/HTMLTeht2.svelte';
-	import HTMLTeht3 from '$lib/exercises/1_html/HTMLTeht3.svelte';
-	import HTMLTeht4 from '$lib/exercises/1_html/HTMLTeht4.svelte';
-	import HTMLTeht5 from '$lib/exercises/1_html/HTMLTeht5.svelte';
+	import HTMLTeht1 from '$lib/1_html/HTMLTeht1.svelte';
+	import HTMLTeht2 from '$lib/1_html/HTMLTeht2.svelte';
+	import HTMLTeht3 from '$lib/1_html/HTMLTeht3.svelte';
+	import HTMLTeht4 from '$lib/1_html/HTMLTeht4.svelte';
+	import HTMLTeht5 from '$lib/1_html/HTMLTeht5.svelte';
 	export let data;
 </script>
 
