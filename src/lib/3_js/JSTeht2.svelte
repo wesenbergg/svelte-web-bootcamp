@@ -7,3 +7,29 @@
    4. Tee lista päivän aterioista let ateriat = ['Puuro', 'Keitto', 'Riisi', 'Kahvi']
       - Tulosta ateriat listassa. Käytä <ul>, <li> ja toistorakennetta.
 -->
+
+<script>
+	// Tee tarvittavat toimenpiteet muuttujille
+	let ika;
+	let luku;
+	let ateriat;
+</script>
+
+<input name="ika" bind:value={ika} />
+<!-- luku muuttujalle input tähän -->
+
+<section>
+	<!-- Renderöi ensimmäinen tehtävä tähän -->
+</section>
+
+<section>
+	<!-- Renderöi toinen tehtävä tähän -->
+</section>
+
+<section>
+	<!-- Renderöi kolmas tehtävä tähän -->
+</section>
+
+<section>
+	<!-- Tulosta neljäs tehtävä tähän -->
+</section>

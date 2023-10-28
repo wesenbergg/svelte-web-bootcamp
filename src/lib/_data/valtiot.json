@@ -1,0 +1,50 @@
+[
+    {
+        "nimi": "Suomi",
+        "tunnus": "FI",
+        "puh": "+358",
+        "valuutta": "Euro"
+    },
+    {
+        "nimi": "Ruotsi",
+        "tunnus": "SWE",
+        "puh": "+46",
+        "valuutta": "Kruunu"
+    },
+    {
+        "nimi": "Norja",
+        "tunnus": "NOR",
+        "puh": "+47",
+        "valuutta": "Kruunu"
+    },
+    {
+        "nimi": "Islanti",
+        "tunnus": "ISL",
+        "puh": "+358",
+        "valuutta": "Euro"
+    },
+    {
+        "nimi": "Tanska",
+        "tunnus": "DEN",
+        "puh": "+45",
+        "valuutta": "Kruunu"
+    },
+    {
+        "nimi": "Viro",
+        "tunnus": "EST",
+        "puh": "+372",
+        "valuutta": "Euro"
+    },
+    {
+        "nimi": "Latvia",
+        "tunnus": "LTV",
+        "puh": "+371",
+        "valuutta": "Euro"
+    },
+    {
+        "nimi": "Liettua",
+        "tunnus": "LIE",
+        "puh": "+370",
+        "valuutta": "Euro"
+    }
+]

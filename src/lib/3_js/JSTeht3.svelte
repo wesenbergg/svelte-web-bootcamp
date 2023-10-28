@@ -19,42 +19,55 @@
 -->
 
 <script>
-  let paivanRuokalista = {
-    paiva: "Maanantai",
-    paaruoka: "Makaroonilaatikko",
-    keitto: "Porkkanasose",
-    jalkkari: "Tiramisu",
-  };
-  let viikonRuokalista = [
-    {
-      paiva: "Maanantai",
-      paaruoka: "Makaroonilaatikko",
-      keitto: "Porkkanasose",
-      jalkkari: "Tiramisu",
-    },
-    {
-      paiva: "Tiistai",
-      paaruoka: "Kinkkukiusaus",
-      keitto: "Pinaattikeitto",
-      jalkkari: "Granola",
-    },
-    {
-      paiva: "Keskiviikko",
-      paaruoka: "Pinaattiohukaiset",
-      keitto: "Jauhelihakeitto",
-      jalkkari: "Jugurtti",
-    },
-    {
-      paiva: "Torstai",
-      paaruoka: "Hernekeitto",
-      keitto: "Hernekeitto",
-      jalkkari: "Pannukakku",
-    },
-    {
-      paiva: "Perjantai",
-      paaruoka: "Spagetti Bolognese",
-      keitto: "Kanakeitto",
-      jalkkari: "Mousse",
-    },
-  ];
+	let paivanRuokalista = {
+		paiva: 'Maanantai',
+		paaruoka: 'Makaroonilaatikko',
+		keitto: 'Porkkanasose',
+		jalkkari: 'Tiramisu'
+	};
+	let viikonRuokalista = [
+		{
+			paiva: 'Maanantai',
+			paaruoka: 'Makaroonilaatikko',
+			keitto: 'Porkkanasose',
+			jalkkari: 'Tiramisu'
+		},
+		{
+			paiva: 'Tiistai',
+			paaruoka: 'Kinkkukiusaus',
+			keitto: 'Pinaattikeitto',
+			jalkkari: 'Granola'
+		},
+		{
+			paiva: 'Keskiviikko',
+			paaruoka: 'Pinaattiohukaiset',
+			keitto: 'Jauhelihakeitto',
+			jalkkari: 'Jugurtti'
+		},
+		{
+			paiva: 'Torstai',
+			paaruoka: 'Hernekeitto',
+			keitto: 'Hernekeitto',
+			jalkkari: 'Pannukakku'
+		},
+		{
+			paiva: 'Perjantai',
+			paaruoka: 'Spagetti Bolognese',
+			keitto: 'Kanakeitto',
+			jalkkari: 'Mousse'
+		}
+	];
+	import valtiot from '$lib/_data/valtiot.json';
 </script>
+
+<section>
+	<!-- Renderöi ensimmäinen tehtävä tähän -->
+</section>
+
+<section>
+	<!-- Renderöi toinen tehtävä tähän -->
+</section>
+
+<section>
+	<!-- Renderöi kolmas tehtävä tähän -->
+</section>
