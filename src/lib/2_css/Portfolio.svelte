@@ -20,7 +20,7 @@
 </nav>
 <main>
 	<section id="home">
-		<div>
+		<div class="header-row">
 			<div>
 				<span>role</span>
 				<span>SOFTWARE DEVELOPER</span>
@@ -41,7 +41,7 @@
 	</section>
 	<section id="portfolio">
 		<h2>Portfolio</h2>
-		<div>
+		<div class="card">
 			<div>
 				<span>TESTER</span>
 				<span>Jan 2023 - now</span>
@@ -52,7 +52,7 @@
 				enim dolor quis dolores ut est atque.
 			</p>
 		</div>
-		<div>
+		<div class="card">
 			<div>
 				<span>SUMMER TRAINEE</span>
 				<span>4 mo</span>
@@ -65,39 +65,37 @@
 		</div>
 	</section>
 	<section id="skill">
-		<div>
-			<div>
-				<h3>My top programming skills</h3>
-				<ol>
-					<li>Svelte</li>
-					<li>HTML</li>
-					<li>JS</li>
-					<li>CSS</li>
-					<li>Git</li>
-				</ol>
-			</div>
+		<div class="a">
+			<h3>My top programming skills</h3>
+			<ol>
+				<li>Svelte</li>
+				<li>HTML</li>
+				<li>JS</li>
+				<li>CSS</li>
+				<li>Git</li>
+			</ol>
+		</div>
 
-			<div>
-				<h3>My top skills as employee</h3>
-				<ol>
-					<li>Documentations</li>
-					<li>Testing</li>
-					<li>Communication</li>
-					<li>Flexibility</li>
-					<li>Agile</li>
-				</ol>
-			</div>
+		<div class="b">
+			<h3>My top skills as employee</h3>
+			<ol>
+				<li>Documentations</li>
+				<li>Testing</li>
+				<li>Communication</li>
+				<li>Flexibility</li>
+				<li>Agile</li>
+			</ol>
+		</div>
 
-			<div>
-				<h3>My top spoken lang</h3>
-				<ol>
-					<li>Finnish</li>
-					<li>English</li>
-					<li>Russian</li>
-					<li>Estonian</li>
-					<li>Swedish</li>
-				</ol>
-			</div>
+		<div class="c">
+			<h3>My top spoken lang</h3>
+			<ol>
+				<li>Finnish</li>
+				<li>English</li>
+				<li>Russian</li>
+				<li>Estonian</li>
+				<li>Swedish</li>
+			</ol>
 		</div>
 	</section>
 	<section id="contact">
@@ -130,11 +128,13 @@
 		</div>
 	</section>
 	<footer>
-		<a href="#home">Back to TOP ^</a>
+		<a href="#home">BACK TO TOP ^</a>
 	</footer>
 </main>
 
 <style>
+	nav li a {
+	}
 	.profileImage {
 		object-fit: cover;
 		width: 350px;
@@ -144,5 +144,113 @@
 		object-fit: cover;
 		width: 300px;
 		height: 400px;
+	}
+	footer {
+		display: flex;
+		justify-content: center;
+		background-color: purple;
+		padding: 1rem 0;
+	}
+	footer a {
+		color: aliceblue;
+		text-decoration: none;
+	}
+	#contact {
+		margin: 4rem;
+	}
+	#contact div,
+	#contact h2 {
+		display: flex;
+	}
+	#contact form {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		justify-content: center;
+	}
+	#contact form div {
+		padding: 0.5rem 1rem;
+		display: flex;
+		flex-direction: column;
+		width: 80%;
+	}
+	#skill {
+		padding: 4rem;
+		background-color: purple;
+		display: grid;
+		grid-template-areas:
+			'. a a b b .'
+			'. . c c . .';
+	}
+	.a {
+		grid-area: a;
+	}
+	.b {
+		grid-area: b;
+	}
+	.c {
+		grid-area: c;
+	}
+	#skill div {
+		background-color: rgba(240, 248, 255, 0.66);
+		border-radius: 1rem;
+		margin: 1rem;
+		padding: 0 1rem;
+		text-align: center;
+	}
+	#portfolio {
+		padding: 2rem;
+	}
+	#portfolio .card {
+		background-color: rgb(255, 240, 253);
+		padding: 1rem;
+		margin: 1rem 0;
+		border-radius: 1rem;
+		display: flex;
+	}
+	#portfolio .card span {
+		display: block;
+		margin: 0 1rem 0 0;
+		text-wrap: nowrap;
+	}
+	#home {
+		background-color: purple;
+		padding: 6rem 2rem;
+		margin-top: -1.5rem;
+	}
+	#home * {
+		color: aliceblue;
+	}
+	.header-row {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+	}
+	.header-row span {
+		display: block;
+	}
+	nav {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	nav ul {
+		margin: auto;
+		width: 600px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		background-color: rgb(208, 66, 208);
+		padding: 0.5rem;
+		border-radius: 1rem;
+	}
+	nav li {
+		list-style-type: none;
+	}
+	nav a {
+		color: rgba(255, 255, 255, 0.9);
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
 	}
 </style>
